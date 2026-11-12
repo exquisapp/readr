@@ -1,4 +1,4 @@
-# Readr 📖
+# Readr 
 
 > **A 100% Deterministic, Offline, Zero-AI Passage Retrieval Engine.**  
 > Verbatim document search with sub-millisecond BM25 scoring, real-time WebSocket streaming, and zero cloud dependencies.
@@ -11,7 +11,7 @@
 
 ---
 
-## ⚡ Highlights
+##  Highlights
 
 - **Zero LLM Hallucinations**: 100% deterministic passage retrieval. Answers are never synthesized or paraphrased; Readr returns verbatim excerpts directly from your source files.
 - **Sub-Millisecond Execution**: Queries evaluate in `< 1ms` in memory using an optimized BM25 ranking algorithm with keyword boost and stopword filtering.
@@ -22,7 +22,7 @@
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 Readr is divided into two distinct components:
 
@@ -48,7 +48,7 @@ readr-golang/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 - **Go**: `1.22+` (tested with Go 1.25)
@@ -101,7 +101,7 @@ The backend starts listening on `http://localhost:3030` with the WebSocket endpo
 
 ---
 
-## 🔌 API & WebSocket Protocol
+##  API & WebSocket Protocol
 
 Readr uses JSON-RPC over WebSockets for bi-directional communication.
 
@@ -119,7 +119,7 @@ Readr uses JSON-RPC over WebSockets for bi-directional communication.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 To run the backend test suite across the search engine, parsers, and WebSocket handlers:
 
